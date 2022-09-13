@@ -1,0 +1,313 @@
+    body {
+        background-color: rgba(250, 250, 250, 1);
+    }
+    
+    form {
+        /* position: relative;
+    left: 350px; */
+        height: 381.6px;
+        border: 1px solid rgba(219, 219, 219, 1);
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    input {
+        width: 268px;
+        height: 38px;
+        border: 1px solid rgba(219, 219, 219, 1);
+        display: block;
+        margin: auto;
+        border-radius: 3px;
+        margin-top: 5px;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    
+    #insta-logo {
+        background-image: url(./Images/instahomepagelogos.png);
+        width: 175px;
+        height: 51px;
+        background-position: 0 -130px;
+        position: relative;
+        margin: auto;
+        margin-top: 2em;
+    }
+    
+    #inputs {
+        margin-top: 40px;
+    }
+    
+    #submit {
+        border-radius: 5px;
+        height: 30px;
+        width: 275px;
+        margin-top: 15px;
+    }
+    
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        margin-top: 30px;
+    }
+    
+    #phone {
+        justify-self: right;
+    }
+    
+    #phone-image {
+        width: 380.31px;
+        height: 581.15px;
+        background-image: url(./images/phone.png);
+        background-position: -46px 0;
+        background-size: 468.32px 634.15px;
+        margin-bottom: 12px;
+        margin-right: 32px;
+        position: relative;
+    }
+    
+    .screenshotimages {
+        position: absolute;
+        right: 18px;
+        top: 25px;
+        opacity: 1;
+    }
+    
+    #main {
+        justify-self: left;
+    }
+    
+    .line {
+        width: 107.04px;
+        height: 0.5px;
+        background-color: rgba(219, 219, 219, 1);
+    }
+    
+    #or {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 268px;
+        margin-top: 15px;
+    }
+    
+    #facebook {
+        display: block;
+        margin-top: 20px;
+    }
+    
+    #fb-img {
+        width: 16px;
+    }
+    
+    #forgot-password {
+        margin-top: 18px;
+    }
+    
+    #sign-up {
+        width: 350px;
+        height: 35px;
+        border: 1px solid rgba(219, 219, 219, 1);
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 15px;
+        background-color: #fff;
+    }
+    
+    #get-app {
+        padding-left: 8.5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    
+    #stores {
+        margin-left: 3em;
+    }
+    
+    #apple,
+    #playstore {
+        width: 136px;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    #screenshotimag1 {
+        opacity: 1;
+        animation: opacity1 30s infinite linear;
+    }
+    
+    @keyframes opacity1 {
+        0% {
+            opacity: 1
+        }
+        10% {
+            opacity: 1;
+        }
+        20% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 0
+        }
+        50% {
+            opacity: 0
+        }
+        60% {
+            opacity: 0
+        }
+        70% {
+            opacity: 0
+        }
+        80% {
+            opacity: 0
+        }
+        90% {
+            opacity: 0.5
+        }
+        100% {
+            opacity: 0.8
+        }
+    }
+    
+    #screenshotimag2 {
+        opacity: 0;
+        animation: opacity2 30s infinite linear;
+    }
+    
+    @keyframes opacity2 {
+        0% {
+            opacity: 0
+        }
+        10% {
+            opacity: 0
+        }
+        20% {
+            opacity: 1
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 0
+        }
+        70% {
+            opacity: 0
+        }
+        80% {
+            opacity: 0
+        }
+        90% {
+            opacity: 0
+        }
+        100% {
+            opacity: 0
+        }
+    }
+    
+    #screenshotimag3 {
+        opacity: 0;
+        animation: opacity3 30s infinite linear;
+    }
+    
+    @keyframes opacity3 {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 0
+        }
+        90% {
+            opacity: 0
+        }
+        100% {
+            opacity: 0
+        }
+    }
+    
+    #screenshotimag4 {
+        opacity: 0;
+        animation: opacity4 30s infinite linear;
+    }
+    
+    @keyframes opacity4 {
+        0% {
+            opacity: 0
+        }
+        10% {
+            opacity: 0
+        }
+        20% {
+            opacity: 0
+        }
+        30% {
+            opacity: 0
+        }
+        40% {
+            opacity: 0
+        }
+        50% {
+            opacity: 0
+        }
+        60% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    @media(max-width: 1000px) {
+        #phone {
+            display: none;
+        }
+        #container {
+            grid-template-columns: 1fr;
+        }
+        #main {
+            justify-self: center;
+        }
+    }
